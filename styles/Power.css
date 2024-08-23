@@ -1,4 +1,20 @@
-body {
+  :root {
+    --gris-fondo: #181a1b;
+  }
+
+  *,
+  ::before,
+  ::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
     background-color: #f3e1f5;
   }
   
@@ -16,8 +32,18 @@ body {
   article {
     float: center;
     padding: 20px;
-    width: 98%;
+    /*width: 98%;*/
+    margin: 10px 30px 10px 30px;
     background-color: #f1bde4;
+  }
+
+  a {
+    color: #6c3fa0;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #d82ca4;
+    /*font-weight: 800;*/
   }
 
   .article2 {
@@ -175,4 +201,27 @@ body {
     margin-top: 10px;
     animation: rotate2 2s infinite;
     border: 2px solid #e6a9e6;
+  }
+
+  @media (max-width: 1200px) {
+    header {
+      font-size: 25px;
+    }
+  }
+  @media (max-width: 880px) {
+    .center {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+  @media (max-width: 500px) {
+    header {
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 720px) {
+    nav {
+      float: none;
+      width: 95%;
+    }
   }
