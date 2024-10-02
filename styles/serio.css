@@ -176,6 +176,14 @@ pre {
   margin-top: 10px;
 }
 
+#guion_grafico .div1 .p1,
+#guion_grafico .div1 .p2,
+#guion_grafico .div2 .p1,
+#guion_grafico .div2 .p2
+{
+  margin: 10px;
+}
+
 @media (max-width: 1200px) {
   header {
     font-size: 25px;
