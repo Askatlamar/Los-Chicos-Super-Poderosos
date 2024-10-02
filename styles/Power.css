@@ -202,6 +202,14 @@
     animation: rotate2 2s infinite;
     border: 2px solid #e6a9e6;
   }
+#guion_grafico .div1 .p1,
+#guion_grafico .div1 .p2,
+#guion_grafico .div2 .p1,
+#guion_grafico .div2 .p2
+{
+  margin: 10px;
+}
+
 
   @media (max-width: 1200px) {
     header {
