@@ -124,6 +124,34 @@
     border: 2px solid #e6a9e6;
   }
 
+  .diva1 {
+    width: 45%;
+    display: inline-block;
+    background-color: #e6a9e6;
+    border: 2px solid #6c3fa0; 
+  }
+
+  .diva2 {
+    width: 45%;
+    display: inline-block;
+    background-color: #6c3fa0;
+    border: 2px solid #e6a9e6;
+  }
+
+  .divb1 {
+    width: 95%;
+    display: inline-block;
+    background-color: #e6a9e6;
+    border: 2px solid #6c3fa0; 
+  }
+
+  .divb2 {
+    width: 95%;
+    display: inline-block;
+    background-color: #6c3fa0;
+    border: 2px solid #e6a9e6;
+  }
+
   .p2 {
     color: #e6a9e6;
     font-family: verdana;

@@ -101,6 +101,34 @@ h1 {
   border: 2px solid #8f8f8f;
 }
 
+.diva1 {
+  width: 45%;
+  display: inline-block;
+  background-color: #8f8f8f;
+  border: 2px solid #666666; 
+}
+
+.diva2 {
+  width: 45%;
+  display: inline-block;
+  background-color: #666666;
+  border: 2px solid #8f8f8f;
+}
+
+.divb1 {
+  width: 95%;
+  display: inline-block;
+  background-color: #8f8f8f;
+  border: 2px solid #666666; 
+}
+
+.divb2 {
+  width: 95%;
+  display: inline-block;
+  background-color: #666666;
+  border: 2px solid #8f8f8f;
+}
+
 h2 {
   text-align: center;
   color: #dbffdd;
